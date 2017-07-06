@@ -15,5 +15,7 @@ This post describes how to create a dummy webcam that will provide stream of sta
 3. Provided previous step created new device `/dev/video1`, instruct `ffmpeg` to fed the video device by image data
 
        ffmpeg -loop 1 -re -i <path-to-the-image> -f v4l2 -vcodec rawvideo -pix_fmt yuv420p /dev/video1
+       
+Reference: https://github.com/umlaeute/v4l2loopback/wiki/Ffmpeg
 
 [1]: https://github.com/umlaeute/v4l2loopback

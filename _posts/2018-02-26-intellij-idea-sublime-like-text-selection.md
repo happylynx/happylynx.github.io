@@ -1,3 +1,5 @@
+# IntelliJ Idea Sublime like text selection
+
 Keyboard shortcuts related to multiselection of same words:
 
 ## Sublime

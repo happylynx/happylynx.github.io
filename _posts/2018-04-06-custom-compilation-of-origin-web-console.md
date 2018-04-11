@@ -36,6 +36,10 @@
    ```
 
    New image is available in local docker registry as `openshift/origin-web-console:latest`.
+   
+### Cross-compilation of `console`, `catalog` and `common`
+
+Described in official [README](https://github.com/openshift/origin-web-console/tree/6e1128d11def43550570593a46c700fd43c2f645#contributing-to-the-primary-repositories).
 
 ## Deployment
 

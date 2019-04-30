@@ -1,4 +1,4 @@
-# Graal VM native image on Windows
+# GraalVM native image on Windows
 
 ## Installation
 
@@ -23,7 +23,7 @@
        
         ![]({{ site.url }}/images/1/windows-7-sdk-installation-options.png)
 
-2. Download and extract [Graal VM snapshot]()
+2. Download and extract [Windows GraalVM Preview](https://www.oracle.com/technetwork/oracle-labs/program-languages/downloads/index.html)
 
 ## Image creation
 
@@ -41,16 +41,16 @@
 2. Compile the source
 
     ```
-    <graal-vm-dir>\bin\javac.exe Foo.java
+    <graalvm-dir>\bin\javac.exe Foo.java
     ```
 
 3. Create the native image
 
-    1. Open *Windows SDK 7.1 Command Prompt* in start menu
+    1. Open *Windows SDK 7.1 Command Prompt* in start menu. It is installed as part of Windows SDK for Windows 7.
     2. Invoke the compilation from there
 
         ```
-        <graal-vm-dir>\bin\native-image.cmd Foo
+        <graalvm-dir>\bin\native-image.cmd Foo
         ```
 
         If the output looks like

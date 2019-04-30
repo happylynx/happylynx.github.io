@@ -8,7 +8,7 @@
 
     1. Make you there are no Microsoft Visual C++ 2010 Redistributable packages installed. If there are, uninstall them all (for both x86 and x 64).
 
-        ![](_images/1/microsoft-visual-cpp-2010-redistributable-uninstallation.png)
+        ![](../_images/1/microsoft-visual-cpp-2010-redistributable-uninstallation.png)
 
         If the 2010 Redistributable packages are already present during the installation the installation [fails](https://social.msdn.microsoft.com/Forums/sqlserver/en-US/1de7c9b4-1feb-4c98-b426-f7f02cbafa99/windows-sdk-71-on-windows-10?forum=windowssdk#4088e371-94ff-4bdc-9187-22225d00586c) with message
 
@@ -18,12 +18,12 @@
         Please attempt to resolve the problem and then start Windows SDK setup again. If you continue to have problems with this issue, please visit the SDK team support page at http://go.microsoft.com/fwlink/?LinkId=130245.
         ```
 
-        ![](_images/1/windows-7-sdk-installation-failure.png)
+        ![](../_images/1/windows-7-sdk-installation-failure.png)
 
     1. Mount the iso image and invoke `Setup\SDKSetup.exe`
     1. Options *Windows Native Code Development* and *Redistributable Packages > Microsoft Visual C++ 2010* are sufficient.
        
-        ![](_images/1/windows-7-sdk-installation-options.png)
+        ![](../_images/1/windows-7-sdk-installation-options.png)
 
 2. Download and extract [Graal VM snapshot]()
 

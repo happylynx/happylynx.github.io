@@ -2,7 +2,7 @@
 
 ## Installation
 
-[Original guide](https://github.com/oracle/graal/tree/master/substratevm#quick-start)
+[Original guide](https://github.com/oracle/graal/tree/master/substratevm#quick-start) for Linux-like environments.
 
 1. Download and install [Microsoft Windows SDK for Windows 7](https://www.microsoft.com/en-us/download/details.aspx?id=8442)
 
@@ -23,7 +23,7 @@
        
         ![]({{ site.url }}/images/1/windows-7-sdk-installation-options.png)
 
-2. Download and extract [Windows GraalVM Preview](https://www.oracle.com/technetwork/oracle-labs/program-languages/downloads/index.html)
+2. Download and extract [Windows GraalVM Preview](https://www.oracle.com/technetwork/oracle-labs/program-languages/downloads/index.html). The website my require authentication.
 
 ## Image creation
 

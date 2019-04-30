@@ -12,11 +12,9 @@
 
         If the 2010 Redistributable packages are already present during the installation the installation [fails](https://social.msdn.microsoft.com/Forums/sqlserver/en-US/1de7c9b4-1feb-4c98-b426-f7f02cbafa99/windows-sdk-71-on-windows-10?forum=windowssdk#4088e371-94ff-4bdc-9187-22225d00586c) with message
 
-        ```
-        Installation of the "Microsoft Windows SDK for Windows 7" product has reported the following error: Please refer to Samples\Setup\HTML\ConfigDetails.htm document for further information.
-
-        Please attempt to resolve the problem and then start Windows SDK setup again. If you continue to have problems with this issue, please visit the SDK team support page at http://go.microsoft.com/fwlink/?LinkId=130245.
-        ```
+        > Installation of the "Microsoft Windows SDK for Windows 7" product has reported the following error: Please refer to Samples\Setup\HTML\ConfigDetails.htm document for further information.
+        >
+        > Please attempt to resolve the problem and then start Windows SDK setup again. If you continue to have problems with this issue, please visit the SDK team support page at http://go.microsoft.com/fwlink/?LinkId=130245.
 
         ![]({{ site.url }}/images/1/windows-7-sdk-installation-failure.png)
 

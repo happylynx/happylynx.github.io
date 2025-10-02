@@ -1,29 +1,32 @@
 # Text processing keyboard shortcuts
 
-| **Action**                         | **Windows**              | **macOS**               | **macOS (Linux VM GUI)** |
+| **Action**                         | **Windows, Linux**       | **macOS**               | **macOS (Linux VM GUI)**           |
 |------------------------------------|--------------------------|-------------------------|------------------------------------|
-| Move to preceding word             | Ctrl + ←                 | ⌥ + ←                   | ⌃ + ⌥ + ←                         |
-| Move to following word             | Ctrl + →                 | ⌥ + →                   | ⌃ + ⌥ + →                         |
-| Move to beginning of current line  | Home                     | ⌘ + ←                   | fn + ←                         |
-| Move to end of current line        | End                      | ⌘ + →                   | fn + →                         |
-| Scroll up one page                 | Page Up                  | Fn + ↑ or ⌥ + ↑         | Fn + ⌃ + ↑                         |
-| Scroll down one page               | Page Down                | Fn + ↓ or ⌥ + ↓         | Fn + ⌃ + ↓                         |
-| Delete preceding character         | Backspace                | ⌫                       | ⌃ + ⌥ + H                         |
-| Delete following character         | Delete                   | Fn + ⌫                  | Fn + ⌃ + ⌥ + Delete               |
-| Move to beginning of document      | Ctrl + Home              | ⌘ + Fn + ←              | ⌃ + ⌥ + Fn + ←                    |
-| Move to end of document            | Ctrl + End               | ⌘ + Fn + →              | ⌃ + ⌥ + Fn + →                    |
-| Delete word before cursor          | Ctrl + Backspace         | ⌥ + ⌫                   | ⌃ + ⌥ + Backspace                 |
-| Delete word after cursor           | Ctrl + Delete            | ⌥ + Fn + ⌫              | Fn + ⌃ + ⌥ + Delete               |
+| Move to preceding word             | Ctrl + ←                 | ⌥ ←                     | ⌃ ⌥ ←                              |
+| Move to following word             | Ctrl + →                 | ⌥ →                     | ⌃ ⌥ →                              |
+| Move to beginning of current line  | Home                     | ⌘ ←                     | fn ←                               |
+| Move to end of current line        | End                      | ⌘ →                     | fn →                               |
+| Scroll up one page                 | Page Up                  | fn ↑ or ⌥ ↑             | fn ↑                               |
+| Scroll down one page               | Page Down                | fn ↓ or ⌥ ↓             | fn ↓                               |
+| Delete preceding character         | Backspace                | ⌫                       | ⌫                                  |
+| Delete following character         | Delete                   | fn ⌫                    | fn ⌫                               |
+| Move to beginning of document      | Ctrl + Home              | fn ↑                    | fn ⌃ ⌥ ←                           |
+| Move to end of document            | Ctrl + End               | fn ↓                    | fn ⌃ ⌥ →                           |
+| Delete word before cursor          | Ctrl + Backspace         | ⌥ ⌫                     | ⌃ ⌥ ⌫                              |
+| Delete word after cursor           | Ctrl + Delete            | fn ⌥ ⌫                  | fn ⌃ ⌥ ⌫                           |
+| Write over mode on/off             | Insert                   | not supported           | likely not supported               |
+| Scroll up (cursor not moved)       |                          |                         | ⇧ ⌘ ↑                              |
+| Scroll down (cursor not moved      |                          |                         | ⇧ ⌘ ↓                              |
 
 ## Controlling a Linux VM from macOS
 
-| **macOS** | Linux VM received key |
+| **macOS key pressed** | **Linux VM received key** |
 |-|-|
-| fn + ↑ | Page Up |
-| fn + ↓ | Page Down |
-| fn + ← | Home|
-| fn + → | End |
-| fn + ⌫ | Delete |
+| fn ↑ | Page Up |
+| fn ↓ | Page Down |
+| fn ← | Home|
+| fn → | End |
+| fn ⌫ | Delete |
 
 ## References
 
